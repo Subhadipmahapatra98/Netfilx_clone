@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+    <title>Login Page</title>
+<head>
+    <meta charset="utf-8">
+		<title>Nexflix Registration From</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+<script type="text/javascript">
+  function check(level)
+  {
+    var email=document.getElementById("t1").value;
+    var pass=document.getElementById("t2").value;
+  if (email == "iamsubhadipmahapatra@gmail.com" && pass =="subhadip1998")
+  {
+    alert("Successfully Logged In");
+  }
+  else
+  {
+    alert("Error In Password");
+  }
+}
+
+</script>
+<style>
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: black;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: red;
+}
+
+body {
+    backface-visibility: 0.3px;
+    background-image: url(images/login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+</style>
+</head>
+<body>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="Home.html"><b>HOME</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+          <a class="nav-link" href="Registration.html"><b>REGISTRATION</b></a>
+      </li>
+         <li class="nav-item">
+          <a class="nav-link" href="login.html"><b>LOGIN</b></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="INFORMATION.html"><b>NEW RELEASE MOVIES & VEDIO'S</b></a>
+      </li>
+              <li class="nav-item active">
+          <a class="nav-link" href="Movie.html"><b>TOP MOVIE'S</b><span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item">
+          <a class="nav-link" href="AboutPage.html"><b>ABOUT PAGE</b></a>
+      </li>
+      </ul>
+        <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" align="center" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="login-page">
+  <div class="form">
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username" id="t1"/>
+      <input type="password" placeholder="password" id="t2"/>
+      <button onclick="check(this.level)" id="b1" value="Login"/>login</button>
+      <p class="message">Not registered? <a href="registration.html">Create an account</a></p>
+    </form>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
